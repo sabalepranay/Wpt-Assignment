@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right , rgb(100, 236, 240), rgb(247, 227, 95));
+    /* linear-gradient(to right, rgb(47, 9, 240),rgb(211, 25, 208)) */
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 276px;
+    padding: 8px 8px 20px;
+    margin: 20px auto;
+    background-color: rgb(2, 98, 157);
+    border-radius: 12px;
+}
+
+#display {
+    display: block;
+    margin: 10px auto;
+    height: 70px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: rgba(8, 67, 104, 0.546);
+    font-size: 40px;
+    color: aliceblue;
+    text-align: right;
+    font-family: orbitron;
+}
+
+.calcybut {
+    display: inline-block;
+    margin: 3px;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    background-color: rgba(207, 155, 237, 0.865);
+    color: aliceblue;
+    border-color:  rgba(207, 155, 237, 0.865);
+}
+
+.equal {
+    width: 130px;
+    background-color:rgb(223, 82, 82);
+}
